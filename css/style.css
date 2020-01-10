@@ -211,6 +211,9 @@ footer .bottom {
     line-height: 24px;
     color: rgba(31, 32, 65, 0.75);
 }
-nav {
+.nav {
     display: flex;
+
 }
+
+.nav 
