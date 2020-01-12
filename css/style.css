@@ -187,6 +187,11 @@ header {
     height: 20px;
 }
 
+footer {
+    display: -webkit-flex;
+    margin-left: auto;
+}
+
 footer .info {
     height: 372px;
     margin-top: 100px;
@@ -216,4 +221,55 @@ footer .bottom {
 
 }
 
-.nav 
+.item_box {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.item_box h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+
+.item_box ul { 
+    margin: 0%;
+    padding: 0%;
+    width: 145px;
+    height: 168px;
+
+}
+
+.item_box li {
+    list-style: none;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+#footer_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+#email {
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 260px;
+    height: 44px;
+    position: relative;
+}
