@@ -13,6 +13,7 @@
 header {
     height: 70px;
     width: 100%;
+    z-index: 3;
 }
 
 .logo {
@@ -310,4 +311,32 @@ footer .bottom {
 
 .img_bottom {
     margin-left: auto;
+}
+
+.main_block1 {
+    display: -webkit-flex;
+}
+
+.left_menu {
+    border: 2px solid red;
+    display: flex;
+    position: fixed;
+    width: 400px ;
+    height: 100%;
+}
+
+.room_items {
+    border: 2px solid green;
+    display: flex;
+    width: 800px;
+    margin-left: 400px;
+    margin-right: 140px;
+
+}
+
+.suit {
+    width: 270px;
+    height: 257px;
+    border: 1px solid blueviolet;
+    display: flex;
 }
