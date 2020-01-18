@@ -328,7 +328,7 @@ footer .bottom {
 .room_items {
     border: 2px solid green;
     display: flex;
-    width: 800px;
+    width: auto;
     margin-left: 400px;
     margin-right: 140px;
 
@@ -339,4 +339,9 @@ footer .bottom {
     height: 257px;
     border: 1px solid blueviolet;
     display: flex;
+    margin: 5px;
+}
+.items_table {
+    display: -webkit-flex;
+    flex-wrap: wrap;
 }
