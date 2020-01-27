@@ -8,6 +8,8 @@
     margin-left: 140px;
     margin-right: 140px;
     display: -webkit-flex;
+    justify-content: center;
+    align-content: center;
 }
 
 header {
@@ -161,6 +163,13 @@ header {
 
 .numguest {
     margin: 20px 30px 30px 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
 }
 
 #search_suit {
@@ -264,7 +273,7 @@ footer .bottom {
     color: rgba(31, 32, 65, 0.75);
 }
 
-#email {
+.item_box input {
     background: #FFFFFF;
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
@@ -272,6 +281,9 @@ footer .bottom {
     width: 260px;
     height: 44px;
     position: relative;
+    padding-left: 20px;
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 .bottom {
