@@ -8,6 +8,7 @@
     margin-left: 140px;
     margin-right: 140px;
     display: -webkit-flex;
+    
 }
 
 header {
@@ -194,8 +195,10 @@ footer {
 
 .info {
     height: 302px;
+    width: 1200px;
     margin-top: 100px;
     display: -webkit-flex;
+    align-items: top;
     justify-content: space-between;
 }
 
@@ -203,9 +206,6 @@ footer .bottom {
     height: 70px;
 }
 
-.logo_block {
-    display: flex;
-}
 
 .cell {
     width: 260px;
@@ -218,9 +218,15 @@ footer .bottom {
 }
 .nav {
     display: flex;
+    width: 165px;
 
 }
-
+.nav:nth-child(1) {
+    width: 220px;
+}
+.nav:last-child {
+    width: 260px;
+}
 .item_box {
     text-align: left;
     /*margin-left: 40px;*/
